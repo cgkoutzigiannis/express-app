@@ -1,6 +1,7 @@
 services:
   express-app:
     build: .
+    image: cgkoutzigiannis/beerapp:latest
     ports:
       - "8080:8080"
 
